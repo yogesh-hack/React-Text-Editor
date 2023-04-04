@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 
-const TextEditor = () => {
+const TextEditor = (props) => {
   const [bold, setBold] = useState(false);
   const [italic, setItalic] = useState(false);
   const [underline, setUnderline] = useState(false);
-  const [text, setText] = useState("");
-
+  const [text, setText] = useState(props.initialText || '');
   const handleBoldClick = () => {
     setBold(!bold);
   };

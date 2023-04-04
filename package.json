@@ -1,7 +1,7 @@
 {
   "name": "react-text-editor",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple react rich text editor",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/yogesh-hack/React-Text-Editor.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["editor","text-editor","simple-text-editor","react","rect-editor"],
+  "author": "Yogesh Baghel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yogesh-hack/React-Text-Editor/issues"
   },
-  "homepage": "https://github.com/yogesh-hack/React-Text-Editor#readme"
+  "homepage": "https://github.com/yogesh-hack/React-Text-Editor#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "prepublish": "npm run build"
 }
