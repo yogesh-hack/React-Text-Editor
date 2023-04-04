@@ -1,0 +1,1 @@
+# React Text Editor NPM package.
